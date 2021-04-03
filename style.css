@@ -1,0 +1,227 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+
+ /* Home page starts*/
+ body
+ {
+     background-size:cover;
+ }
+ 
+ .navigation-bar
+ {
+     float: right;
+     margin-left: 450px;
+     margin-top: 5px;
+     font-family:cursive;
+     color:blanchedalmond;
+     font-size: 17px;
+ }
+
+ .cmargin
+ {
+    margin-left: 400px;
+    margin-top: 50px;
+ }
+
+ /* Home page ends */
+
+ /* Districts page starts */
+
+ .dispage
+ {
+     text-align:center;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: steelblue;
+     font-weight: bold;
+     background-color: white;
+     font-size: 30px;
+     margin-top: 80px;
+     margin-left: 400px;
+     margin-right: 500px;
+ }
+
+ .cardstyling
+ {
+     margin-left: 75px;
+     margin-top: 60px;
+     text-align:justify;
+
+
+ }
+ /* Districts page ends */
+
+ /* Login Page starts */
+
+ .container
+ {
+     position: relative;
+
+ }
+
+ .loginvideo
+ {
+     position: fixed;
+     
+     width: 100%;
+     height: 100%;
+     margin-top: -150px;
+     margin-left: -1000px;
+
+ }
+
+ .button 
+ {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color:paleturquoise;
+    color:mediumblue;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 5px;
+  }
+
+  .submitbutton 
+  {
+    font: bold 18px Arial;
+    text-decoration: none;
+    color:oldlace;
+    padding: 2px 6px 2px 6px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #CCCCCC;
+    border-radius: 5px;
+  }
+
+ /* Login page ends */
+
+ /* Signup page srarts */
+
+ .hover-item:hover
+ {
+     background-color:olive;
+ }
+
+ .signupvideo
+ {
+     position:fixed;
+     left: 0px;
+     top: -206px;
+     width: 100%;
+     height: 100%;
+ }
+
+ .signupbutton
+ {
+    font: bold 18px Arial;
+    text-decoration: none;
+    background-color:darkseagreen;
+    color:forestgreen;
+    border-radius: 5px;
+    padding: 5px 9px 5px 9px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #CCCCCC;
+  }
+
+  #psw
+  {
+      width: 500px;
+      height: 40px;
+      border-radius: 5px;
+  }
+
+  #myEmail
+  {
+      width: 500px;
+      height: 40px;
+      border-radius: 5px;
+  }
+
+  #mblno
+  {
+      width: 500px;
+      height: 40px;
+      border-radius: 5px;
+  }
+
+ /* Signup page ends*/
+
+ /* E-Brochure Starts  */
+
+ .cmargin2
+ {
+     margin-left: 320px;
+     margin-top: 20px;
+ }
+
+ .brochurebutton
+ {
+    font: italic 17px Arial;
+    text-decoration: none;
+    background-color:black;
+    color:darkgoldenrod;
+    padding: 5px 9px 5px 9px;
+    border-top: 1px solid #ff9100;
+    border-right: 1px solid #ff9100;
+    border-bottom: 1px solid #d88415a2;
+    border-left: 1px solid #d88415a2;
+  }
+ 
+ /* E-Brochure Ends */
+
+ /* District-Wise starts */
+
+ .carddiswise
+ {
+     margin-left: 300px;
+     margin-top: 60px;
+ }
+
+ .inno
+ {
+     position: relative;
+     
+ }
+
+ .overlay 
+ {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+ }
+
+ .inno:hover .overlay 
+ {
+    opacity: 0.7;
+ }
+
+ .text 
+ {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+ 
+ /* District-Wise Ends */
